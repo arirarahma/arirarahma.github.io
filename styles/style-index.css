@@ -18,6 +18,15 @@ img {
 
 .container {
 	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 420px) {
+  	.container 
+  	{
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 .column1, .column2, .column3 {
