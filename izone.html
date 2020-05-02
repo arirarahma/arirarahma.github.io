@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<title>IZ*ONE</title>
+		<style>
+		* {box-sizing: border-box}
+		.mySlides1, .mySlides2, .mySlides3 {display: none}
+
+		body {
+			font-family: 'Oswald', 'Noto Sans KR', sans-serif;
+		}
+
+		.header {
+			text-align:center;
+		    padding: auto;
+			background: linear-gradient(270deg, rgba(254,132,145,1) 0%, rgba(242,176,130,1) 80%);
+			color: #fff0d4;
+			font-size: 20px;
+		}
+
+		.members {
+			text-align:center;
+		    padding: auto;
+			background: #FF99AA;
+			color: #ECE8E8;
+			font-size: 16px;
+		}
+
+		.discography {
+			text-align:center;
+		    padding: auto;
+			background: #FF928C;
+			color: #D9FFDC;
+			font-size: 16px;
+		}
+
+		.mv {
+			text-align:center;
+		    padding: auto;
+			background: #fe8491;
+			color: #FFDEBF;
+			font-size: 16px;
+		}
+
+		img 
+		{
+		  object-fit: contain;
+		  max-width: 700px;
+		  max-height: 500px;
+		  width: auto;
+		  height: auto;
+		}
+
+		.grid-container {
+		  display: flex;
+
+		}
+
+		/* Slideshow container */
+		.slideshow-container {
+		  width: auto;
+		  position: relative;
+		  margin: 10px;
+
+		}
+
+		/* Next & previous buttons */
+		.prev, .next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 30%;
+		  width: auto;
+		  padding: 20px;
+		  margin-top: -20px;
+		  
+		  font-weight: bold;
+		  font-size: 18px;
+		  transition: 0.6s ease;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		  background-color: rgba(1, 1, 1, 0.1);
+		  color: white;
+		}
+
+		.prev:hover, .next:hover {
+		  background-color: rgba(241, 241, 241, 1);
+		  color: black;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+
+
+		/* Caption text */
+		.text, .hidden-text{
+		  font-size: 15px;
+		  width: 100%;
+		  text-align: center;
+		  position: absolute;
+		  bottom: 0;
+		  background: rgb(255, 255, 255); /* Fallback color */
+		  background: rgba(255, 255, 255, 0.8); /* Black background with 0.5 opacity */
+		  color: #000;
+		  padding: 20px;
+		}
+
+		.hidden-text {
+		  display: none;
+		}
+
+		.text:hover + .hidden-text {
+		  display: block;
+		}
+
+		.text:hover {
+		  display: none;
+		}
+
+		a:link {
+ 		  text-decoration: none;
+		}
+
+		a:visited {
+  		  text-decoration: none;
+  		  color: #fff;
+		}
+
+
+
+		</style>
+	</head>
+	<body>
+
+		<div class="header">
+		  <h1>IZ*ONE (아이즈원)</h1>
+		</div>
+
+		<div class="grid-container">
+			<div class="slideshow-container slide-member">
+			  <div class="members">
+			  	<h1>Members</h1>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/JWY.jpg" alt="Wonyoung" style="width:100%">
+			    <div class="text" >
+			      Wonyoung (원영)
+			    </div>
+			    <div class="hidden-text">
+			      Jang Won Young (장원영) / <span style="background-color:#D9598C">#D9598C</span><br>
+			      Lead Dancer and Center / Aug 31, 2004 / Type O / Seoul, South Korea <br>
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/MSK.jpg" alt="Sakura" style="width:100%">
+			    <div class="text" >
+			      Sakura (사쿠라)
+			    </div>
+			    <div class="hidden-text">
+			      Miyawaki Sakura (宮脇 咲良) (미야와키 사쿠라) / <span style="background-color:#F1D2E7">#F1D2E7</span><br>
+			      Rapper and Visual / 1998 March 19 / Type A / Kagoshima, Japan
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/JYR.jpg" alt="Yuri" style="width:100%">
+			    <div class="text" >
+			      Yuri (유리)
+			    </div>
+			    <div class="hidden-text">
+			      Jo Yu Ri (조유리) / <span style="background-color:#F3AA51">#F3AA51</span><br>
+			      Main Vocalist / 2001 October 22 / Type AB / Busan, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/CYN.jpg" alt="Yena" style="width:100%">
+			    <div class="text" >
+			      Yena (예나)
+			    </div>
+			    <div class="hidden-text">
+			      Choi Ye Na (최예나) / <span style="background-color:#FCF695">#FCF695</span><br>
+			      Main Rapper and Lead Vocalist / Type A / Gangdong, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/AYJ.jpg" alt="Yujin" style="width:100%">
+			    <div class="text" >
+			      Yujin (유진)
+			    </div>
+			    <div class="hidden-text">
+			      Ahn Yu Jin (안유진) / <span style="background-color:#567ACE">#567ACE</span><br>
+			      Lead Vocalist and Lead Dancer / 2003 September 1 / Type A / Daejeon, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/YNK.jpg" alt="Nako" style="width:100%">
+			    <div class="text" >
+			      Nako (奈子) (나코)
+			    </div>
+			    <div class="hidden-text">
+			      Yabuki Nako (矢吹奈子) (야부키 나코) / <span style="background-color:#B7D3E9">#B7D3E9</span><br>
+			      Vocalist / 2001 June 18 / Type - / Tokyo, Japan
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/KEB.jpg" alt="Eunbi" style="width:100%">
+			    <div class="text" >
+			      Eunbi (은비)
+			    </div>
+			    <div class="hidden-text">
+			      Kwon Eun Bi (권은비) / <span style="background-color:#BBB0DC">#BBB0DC</span><br>
+			      Leader and Main Dancer / 1995 September 27 / Type A / Seoul, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/KHW.jpg" alt="Hyewon" style="width:100%">
+			    <div class="text" >
+			      Hyewon (혜원)
+			    </div>
+			    <div class="hidden-text">
+			      Kang Hye Won (강혜원) / <span style="background-color:#DB706C">#DB706C</span><br>
+			      Rapper and Visual / 1999 July 5 / Type B / South Gyeongsang, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/HHT.jpg" alt="Hitomi" style="width:100%">
+			    <div class="text" >
+			      Hitomi (仁美) (히토미)
+			    </div>
+			    <div class="hidden-text">
+			      Honda Hitomi (本田仁美) (혼다 히토미) / <span style="background-color:#F1C3AA">#F1C3AA</span><br>
+			      Lead Dancer and Vocalist / 2001 October 6 / Type A / Tochigi, Japan
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/KCW.jpg" alt="Chaewon" style="width:100%">
+			    <div class="text" >
+			      Chaewon (채원)
+			    </div>
+			    <div class="hidden-text">
+			      Kim Chae Won (김채원) / <span style="background-color:#CEE5D5">#CEE5D5</span><br>
+			      Main Vocalist / 2000 August 1 / Type B / Seoul, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/izone/members/KMJ.jpg" alt="Minju" style="width:100%">
+			    <div class="text" >
+			      Minju (민주)	
+			    </div>
+			    <div class="hidden-text">
+			      Kim Min Joo (김민주) / <span style="background-color:#FFFFFF">#FFFFFF</span><br>
+			      Rapper and Visual / 2001 February 5 / Type AB / Seoul, South Korea
+			    </div>
+			  </div>	
+			  <div class="mySlides1">
+			    <img src="images/izone/members/LCY.jpg" alt="Chaeyeon" style="width:100%">
+			    <div class="text" >
+			      Chaeyeon (채연)
+			    </div>
+			    <div class="hidden-text">
+			      Lee Chae Yeon (이채연) / <span style="background-color:#A7E0E1">#A7E0E1</span><br>
+			      Main Dancer and Lead Vocalist / 2000 January 11 / Type A / Yongin, South Korea
+			    </div>
+			  </div>			  			  
+			  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+			</div>
+
+			<div class="slideshow-container slide-album">
+			  <div class="discography">
+			  	<h1>Discography</h1>
+			  </div>
+			  <div class="mySlides2">
+			    <img src="images/izone/album/3.jpg" alt="Bloom*Iz" style="width:100%">
+			    <div class="text">
+			      Bloom*Iz
+			    </div>
+				<div class="hidden-text">
+			      Eyes <br>
+			      Fiesta <br>
+			      Dreamlike <br>
+			      Ayayaya <br>
+			      So Curious <br>
+			      Spaceship <br>
+			      Destiny <br>
+			      You & I <br>
+			      Daydream <br>
+			      Pink Blusher <br>
+			      Someday <br>
+			      Open Your Eyes <br>
+			      Korean Sales: 480,543 <br>
+			      Released: February 17, 2020
+			    </div>
+			  </div>
+			  <div class="mySlides2">
+			    <img src="images/izone/album/2.jpg" alt="Heart*Iz" style="width:100%">
+			    <div class="text">
+			      Heart*Iz
+			    </div>
+			    <div class="hidden-text">
+			      해바라기 <br>
+			      비올레타 <br>
+			      Highlight <br>
+			      Really Like You <br>
+			      Airplane <br>
+			      하늘 위로 <br>
+			      고양이가 되고 싶어 <br>
+			      기분 좋은 안녕 <br>
+			      Korean Sales: 282,187 <br>
+			      Released: April 1, 2019
+			    </div>
+			  </div>
+			  <div class="mySlides2">
+			    <img src="images/izone/album/1.jpg" alt="Color*Iz" style="width:100%">
+			    <div class="text">
+			      Color*Iz
+			    </div>
+				<div class="hidden-text">
+				  Colors <br>
+				  O' My! <br>
+				  La Vie en Rose <br>
+				  Memory <br>
+				  We Together <br>
+				  You're in Love, Right? <br>
+				  As We Dream <br>
+				  Pick Me <br>	
+				  Korean Sales: 252,717 <br>
+			      Released: October 29, 2018
+			    </div>
+			  </div>
+			  
+			  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+			</div>
+
+			<div class="slideshow-container slide-mv">
+			  <div class="mv">
+			  	<h1>Music Video</h1>
+			  </div>
+			  <div class="mySlides3">
+			    <iframe width=700 height=500 src="https://www.youtube.com/embed/kCk8x__pXvE"></iframe>
+				<div class="text" >
+			    	Fiesta Dance Practice
+			    </div>
+			    <div class="hidden-text">
+			      	Song: Fiesta <br>
+				  	Album: Bloom*Iz <br>
+				  	Released: February 17, 2020
+			    </div>
+			  </div>
+			  <div class="mySlides3">
+			    <iframe width=700 height=500 src="https://www.youtube.com/embed/Z8_aiEDLoY4"></iframe>
+				<div class="text" >
+			    	Violeta Dance Practice
+			    </div>
+			    <div class="hidden-text">
+			      	Song: Violeta <br>
+				  	Album: Heart*Iz <br>
+				  	Released: April 7, 2019
+			    </div>
+			  </div>
+
+			  <div class="mySlides3">
+			    <iframe width=700 height=500 src="https://www.youtube.com/embed/aV87Og9XQnM"></iframe>
+				<div class="text" >
+			    	La Vie en Rose Debut Stage 
+			    </div>
+			    <div class="hidden-text">
+			      	Song: La Vie En Rose <br>
+				  	Album: Color*Iz <br>
+				  	Released: November 3, 2018
+			    </div>
+			  </div>
+			  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+			</div>
+		</div>
+
+		<script>
+		var slideIndex = [1,1,1];
+		var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+		showSlides(1, 0);
+		showSlides(1, 1);
+		showSlides(1, 2);
+
+		function plusSlides(n, no) {
+		  showSlides(slideIndex[no] += n, no);
+		}
+
+		function showSlides(n, no) {
+		  var i;
+		  var x = document.getElementsByClassName(slideId[no]);
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > x.length) {slideIndex[no] = 1}    
+		  if (n < 1) {slideIndex[no] = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex[no]-1].style.display = "block";  
+		}
+		</script>
+
+	</body>
+</html> 

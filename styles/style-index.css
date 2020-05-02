@@ -1,0 +1,63 @@
+h1 {
+  	text-align: center;
+}
+
+html {
+	background-color: #FFF;
+  	font-size:20px;
+	
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 350px; 
+}
+
+.container {
+	display: flex;
+}
+
+.column1, .column2, .column3 {
+	display: block;
+  	border: 5px solid black;
+  	margin: 0 auto;
+  	padding: 10px;
+  	font-family: 'Reem Kufi', sans-serif;
+  	
+}
+
+.column1 {
+	background-color: #efece5;
+}
+
+.column2 {
+	background-color: #BCC7D2;
+}
+
+.column3 {
+	background-color: #ece8e8;
+}
+
+.header {
+	text-align:center;
+	padding: auto;
+	background: #0064af;
+	color: white;
+	font-size: 20px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.IOI-header, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+.button {
+	display: block;
+}
