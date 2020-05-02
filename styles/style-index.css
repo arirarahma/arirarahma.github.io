@@ -20,11 +20,11 @@ img {
   	.container 
   	{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 720px) {
   	.container 
   	{
 		display: flex;
