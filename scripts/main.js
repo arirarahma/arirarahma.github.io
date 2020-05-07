@@ -1,3 +1,9 @@
-$(".column2").click(function() {
-  window.location = "lvlz.html"; 
-});
+var aud = document.getElementById("myAudio"); 
+
+function playAud() { 
+  aud.play(); 
+} 
+
+function pauseAud() { 
+  aud.pause(); 
+} 

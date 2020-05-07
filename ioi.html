@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<title>I.O.I</title>
+		<style>
+		* {box-sizing: border-box}
+		.mySlides1, .mySlides2, .mySlides3 {display: none}
+
+		body {
+			font-family: 'Oswald', 'Noto Sans KR', sans-serif;
+			background: linear-gradient(to right, rgb(189, 192, 196), rgb(196, 202, 178), rgb(123, 175, 183));
+		}
+
+		.header {
+			text-align:center;
+		    padding: auto;
+			color: #525a69;
+			font-size: 20px;
+		}
+
+		.members {
+			text-align:center;
+		    padding: auto;
+			color: #4c495a;
+			font-size: 16px;
+		}
+
+		.discography {
+			text-align:center;
+		    padding: auto;
+			color: #202f30;
+			font-size: 16px;
+		}
+
+		.mv {
+			text-align:center;
+		    padding: auto;
+			color: #3c4c4b;
+			font-size: 16px;
+		}
+
+		img 
+		{
+		  object-fit: contain;
+		  max-width: 700px;
+		  max-height: 500px;
+		  width: auto;
+		  height: auto;
+		}
+
+		.grid-container {
+		  display: flex;
+
+		}
+
+		/* Slideshow container */
+		.slideshow-container {
+		  width: auto;
+		  position: relative;
+		  margin: 10px;
+
+		}
+
+		/* Next & previous buttons */
+		.prev, .next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 30%;
+		  width: auto;
+		  padding: 20px;
+		  margin-top: -20px;
+		  
+		  font-weight: bold;
+		  font-size: 18px;
+		  transition: 0.6s ease;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		  background-color: rgba(1, 1, 1, 0.1);
+		  color: white;
+		}
+
+		.prev:hover, .next:hover {
+		  background-color: rgba(241, 241, 241, 1);
+		  color: black;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+
+
+		/* Caption text */
+		.text, .hidden-text{
+		  font-size: 15px;
+		  width: 100%;
+		  text-align: center;
+		  position: absolute;
+		  bottom: 0;
+		  background: #4c495a;
+		  color: #FFF;
+		  padding: 20px;
+		}
+
+		.hidden-text {
+		  display: none;
+		}
+
+		.text:hover + .hidden-text {
+		  display: block;
+		}
+
+		.text:hover {
+		  display: none;
+		}
+
+		a:link {
+ 		  text-decoration: none;
+		}
+
+		a:visited {
+  		  text-decoration: none;
+  		  color: #fff;
+		}
+
+
+
+		</style>
+	</head>
+	<body>
+
+		<div class="header">
+		  <h1>I.O.I (아이오아이)</h1>
+		</div>
+
+		<div class="grid-container">
+			<div class="slideshow-container slide-member">
+			  <div class="members">
+			  	<h1>Members</h1>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/JSM.jpg" alt="Somi" style="width:100%">
+			    <div class="text" >
+			      Somi (소미)
+			    </div>
+			    <div class="hidden-text">
+			      Jeon Somi (전소미) <br>
+			      Lead Dancer and Center / 2001 March 9 / Type O / Ontario, Canada <br>
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/KSJ.jpg" alt="Sejeong" style="width:100%">
+			    <div class="text" >
+			      Sejeong (세정)
+			    </div>
+			    <div class="hidden-text">
+			      Kim Se Jeong (김세정) <br>
+			      Main Vocalist / 1996 August 28 / Type AB / Jeonju, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/CYJ.jpg" alt="Yoojung" style="width:100%">
+			    <div class="text" >
+			      Yoojung (유정)
+			    </div>
+			    <div class="hidden-text">
+			      Choi Yoo Jung (최유정) <br>
+			      Lead Rapper and Lead Dancer / 1999 November 12 / Type O / Gurisi, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/CYN.jpg" alt="Chungha" style="width:100%">
+			    <div class="text" >
+			      Chungha (청하)	
+			    </div>
+			    <div class="hidden-text">
+			      Kim Chungha (김청하) <br>
+			      Main Dancer and Lead Vocalist/ 1996 February 9 / Type A / Seoul, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/KSH.jpg" alt="Sohye" style="width:100%">
+			    <div class="text" >
+			      Sohye (소혜)
+			    </div>
+			    <div class="hidden-text">
+			      Kim So Hye (김소혜) <br>
+			      Vocalist and Rapper / 1999 July 19 / Type A / Seoul, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/JKK.jpg" alt="Kyulkyung" style="width:100%">
+			    <div class="text" >
+			      Kyulkyung (결경)
+			    </div>
+			    <div class="hidden-text">
+			      Zhou Jie Qiong (周洁琼) / Joo Kyulkyung (주결경) <br>
+			      Lead Dancer and Vocalist / 1998 December 16 / Type O / Shanghai, China
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/JCY.jpg" alt="Chaeyeon" style="width:100%">
+			    <div class="text" >
+			      Chaeyeon (채연)
+			    </div>
+			    <div class="hidden-text">
+			      Jung Chae Yeon (정채연) <br>
+			      Vocalist and Visual / 1997 December 1 / Type A /  South Jeolla, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/KDY.jpg" alt="Doyeon" style="width:100%">
+			    <div class="text" >
+			      Doyeon (도연)
+			    </div>
+			    <div class="hidden-text">
+			      Kim Do Yeon (김도연) <br>
+			      Vocalist and Visual / 1999 December 4 / Type O / Incheon, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/KMN.jpg" alt="Mina" style="width:100%">
+			    <div class="text" >
+			      Mina (미나)
+			    </div>
+			    <div class="hidden-text">
+			      Kang Mi Na (강미나) <br>
+			      Lead Dancer and Vocalist / 1999 December 4 / Type O / Icheon-si, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/LNY.jpg" alt="Nayoung" style="width:100%">
+			    <div class="text" >
+			      Nayoung (나영)
+			    </div>
+			    <div class="hidden-text">
+			      Lim Na Young (임나영) <br>
+			      Leader and Main Rapper / 1995 December 18 / Type O / Seoul, South Korea
+			    </div>
+			  </div>
+			  <div class="mySlides1">
+			    <img src="images/ioi/members/YYJ.jpg" alt="Yeonjung" style="width:100%">
+			    <div class="text" >
+			      Yeonjung (연정)
+			    </div>
+			    <div class="hidden-text">
+			      Yu Yeon Jung (유연정) <br>
+			      Main Vocalist / 1999 August 3 / Type A / Seoul, South Korea
+			    </div>
+			  </div>		  			  
+			  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+			</div>
+
+			<div class="slideshow-container slide-album">
+			  <div class="discography">
+			  	<h1>Discography</h1>
+			  </div>
+			  <div class="mySlides2">
+			    <img src="images/ioi/album/3.jpg" alt="Miss Me?" style="width:100%">
+			    <div class="text">
+			      Miss Me?
+			    </div>
+				<div class="hidden-text">
+			      Very Very Very <br>
+			      Hold On <br>
+			      More More <br>
+			      Ping Pong <br>
+			      M-Maybe <br>
+			      Korean Sales: 106,439 <br>
+			      Released: October 17, 2016
+			    </div>
+			  </div>
+			  <div class="mySlides2">
+			    <img src="images/ioi/album/2.jpg" alt="Whatta Man" style="width:100%">
+			    <div class="text">
+			      Whatta Man
+			    </div>
+			    <div class="hidden-text">
+			      Whatta Man <br>
+			      Korean Sales: 78,535 <br>
+			      Released: August 9, 2016
+			    </div>
+			  </div>
+			  <div class="mySlides2">
+			    <img src="images/ioi/album/1.jpg" alt="Chrysalis" style="width:100%">
+			    <div class="text">
+			      Color*Iz
+			    </div>
+				<div class="hidden-text">
+				  I.O.I <br>
+				  Dream Girls <br>
+				  Knock Knock Knock <br>
+				  Doo-Wap <br>
+				  Crush <br>
+				  When the Cherry Blossoms Fade <br>
+				  Pick Me <br>	
+				  Korean Sales: 87,026 <br>
+			      Released: May 4, 2016
+			    </div>
+			  </div>
+			  
+			  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+			</div>
+
+			<div class="slideshow-container slide-mv">
+			  <div class="mv">
+			  	<h1>Music Video</h1>
+			  </div>
+			  <div class="mySlides3">
+			    <iframe width=700 height=500 src="https://www.youtube.com/embed/kbdW2LaKlnw"></iframe>
+				<div class="text" >
+			    	Downpour
+			    </div>
+			    <div class="hidden-text">
+			      	Song: Downpour <br>
+				  	Album: Downpour <br>
+				  	Released: January 17, 2017
+			    </div>
+			  </div>
+			  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+			</div>
+		</div>
+
+		<script>
+		var slideIndex = [1,1,1];
+		var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+		showSlides(1, 0);
+		showSlides(1, 1);
+		showSlides(1, 2);
+
+		function plusSlides(n, no) {
+		  showSlides(slideIndex[no] += n, no);
+		}
+
+		function showSlides(n, no) {
+		  var i;
+		  var x = document.getElementsByClassName(slideId[no]);
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > x.length) {slideIndex[no] = 1}    
+		  if (n < 1) {slideIndex[no] = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex[no]-1].style.display = "block";  
+		}
+		</script>
+
+	</body>
+</html> 
