@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+		<title>러블리즈8</title>
+		<style>
+		* {box-sizing: border-box}
+		.mySlides1 {
+			display: none;
+
+		}
+
+		body {
+			font-family: 'Reem Kufi', sans-serif;
+			background-color: #ebdfc0;
+		}
+
+		.header {
+			text-align:left;
+		    padding: auto;
+			color: #0064af;
+			font-size: 20px;
+		}
+
+		.title {
+			text-align: center;
+			position: relative;
+			display: inline;
+			padding-left: 835px;
+		}
+
+		.footer {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: #3F3F3F;
+			color: white;
+			text-align: left;
+			padding-left: 20px; 
+    		z-index: 1;
+		}
+
+		.center {
+		  	display: block;
+		  	margin-left: auto;
+		  	margin-right: auto;
+		  	width: 50%;
+		  	vertical-align: middle;
+		  	max-width: 700px;
+		  	position: relative;
+		}
+
+		.woollim-logo {
+			padding: 10px;
+		}
+
+		.snsicon {
+			position: relative;
+			float: right;
+			padding: 10px;
+		}
+
+		.sidenav {
+		  height: 100%;
+		  width: 0;
+		  position: fixed;
+		  z-index: 1;
+		  top: 0;
+		  left: 0;
+		  background-color: #0064af;
+		  overflow-x: hidden;
+		  transition: 0.5s;
+		  padding-top: 100px;
+		}
+
+		.sidenav a {
+		  padding: 8px 8px 8px 32px;
+		  text-decoration: none;
+		  font-size: 25px;
+		  color: #FFF;
+		  display: block;
+		  transition: 0.3s;
+		}
+
+		.sidenav a:hover {
+		  color: #f1f1f1;
+		}
+
+		.sidenav .closebtn {
+		  position: absolute;
+		  top: 0;
+		  right: 25px;
+		  font-size: 36px;
+		  margin-left: 50px;
+		}
+
+		#main {
+		  transition: margin-left .5s;
+		  padding: 5px;
+		}
+
+		@media screen and (max-height: 450px) {
+		  .sidenav {padding-top: 15px;}
+		  .sidenav a {font-size: 18px;}
+		}
+
+		.row {
+		  display: -ms-flexbox; /* IE10 */
+		  display: flex;
+		  -ms-flex-wrap: wrap; /* IE10 */
+		  flex-wrap: wrap;
+		  padding: 0 4px;
+		}
+
+		/* Create four equal columns that sits next to each other */
+		.column {
+		  -ms-flex: 25%; /* IE10 */
+		  flex: 25%;
+		  max-width: 25%;
+		  padding: 0 4px;
+		}
+
+		.column img {
+		  margin-top: 8px;
+		  vertical-align: middle;
+		  width: 100%;
+		}
+
+		/* Responsive layout - makes a two column-layout instead of four columns */
+		@media screen and (max-width: 800px) {
+		  .column {
+		    -ms-flex: 50%;
+		    flex: 50%;
+		    max-width: 50%;
+		  }
+		}
+
+		/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+		  .column {
+		    -ms-flex: 100%;
+		    flex: 100%;
+		    max-width: 100%;
+		  }
+		}
+
+		</style>
+	</head>
+	<body>
+
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="lvlz-about.html">About</a>
+		  <a href="lvlz-members.html">Members</a>
+		  <a href="lvlz-discography.html">Discography</a>
+		  <a href="lvlz-video.html">Video</a>
+		  <a href="lvlz-gallery.html">Gallery</a>
+		</div>
+
+		<div class="main">
+			<div class="header">
+			  <span style="font-size:40px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+			  <h1 class="title">Gallery</h1>
+			</div>
+			
+			
+			<div class="row"> 
+			  <div class="column">
+			    <img src="images/lvlz/gallery/1.png" style="width:100%">
+				<img src="images/lvlz/gallery/2.png" style="width:100%">
+				<img src="images/lvlz/gallery/3.png" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="images/lvlz/gallery/5.png" style="width:100%">
+				<img src="images/lvlz/gallery/6.png" style="width:100%">
+				<img src="images/lvlz/gallery/7.png" style="width:100%">
+			  </div>  
+			  <div class="column">
+			    <img src="images/lvlz/gallery/8.png" style="width:100%">
+				<img src="images/lvlz/gallery/9.png" style="width:100%">
+				<img src="images/lvlz/gallery/10.png" style="width:100%">	
+			  </div>
+			  <div class="column">
+			  	<img src="images/lvlz/gallery/4.png" style="width:100%">
+			    <img src="images/lvlz/gallery/12.png" style="width:100%">
+				<img src="images/lvlz/gallery/13.png" style="width:100%">
+				<img src="images/lvlz/gallery/14.png" style="width:100%">
+				<img src="images/lvlz/gallery/11.png" style="width:100%">
+			  </div>
+			</div>
+		</div>	
+
+		<div class="footer">
+  			<div class="woollim-logo">
+  				<img src="images/lvlz/woollim_logo.png" alt="Woollim">
+  				<div class="snsicon">
+  					<a href="http://lvlz8.com/" target="_blank"><img src="images/ico_art_home.png" alt="Homepage"></a>
+  					<a href="http://www.youtube.com/lvlz8" target="_blank"><img src="images/ico_yt.png" alt="YT"></a>
+  					<a href="https://twitter.com/Official_LVLZ" target="_blank"><img src="images/ico_tw.png" alt="TW"></a>
+  					<a href="https://www.instagram.com/official_lvlz8_" target="_blank"><img src="images/ico_insta.png" alt="IG"></a>
+  					<a href="https://www.facebook.com/lvlz8" target="_blank"><img src="images/ico_fb.png" alt="FB"></a>
+  					<a href="http://channels.vlive.tv/FB183" target="_blank"><img src="images/ico_vapp.png" alt="VLive"></a>
+  				</div>
+  			</div>
+		</div>
+
+		<script>
+
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		  document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex+= n);
+		}
+
+		function currentSlides(n) {
+		  showSlides(slideIndex = n);
+		}s
+
+		function showSlides(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+		</script>
+
+	</body>
+</html> 
