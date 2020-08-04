@@ -1,49 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-  	<head>
-	    <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <link href="styles/style-index.css" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-	    <title>Test Blog</title>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="lvlz-styles.css">
+		<link rel="shortcut icon" href="images/lvlz/logo3.ico" type="image/x-icon">
+		<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+		<title>러블리즈8</title>
 	</head>
-  	<body>	
-  		<div class="header">
-		  <h1>Test Page</h1>
+	
+	<body>
+		
+		<div id='sidenav'>
 		</div>
-  		<div class="container">
-			<a href="ioi.html">
-  			<div class="column1 inner">	
-  				<div class="IOI-header">
-			  		<H1>IOI</H1>
+
+		<div id="main">
+			<div>
+				<div class="header">
+					<span style="font-size:40px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+				  	<h1 class="title">LOVELYZ (러블리즈)</h1>
 				</div>
-			    <img src="images/ioi/IOI1.jpg" alt="I.O.I">
-			    <!--<p>I.O.I (아이오아이) is a South Korean girl group that consists of 11 members: Somi, Sejeong, Yoojung, Chungha, Sohye, Kyulkyung, Chaeyeon, Doyeon, Mina, Nayoung, Yunjung. They debuted in May 4, 2016 under YMC Entertainment.</p> -->
+					<img class="center" src="images/lvlz/gallery/LVLZ18.jpg" alt="Woollim">
+				  	<p class="justify">On November 12, 2014, a flower bloomed. Babysoul, Jiae, Jisoo, Mijoo, Kei, Jin, Sujeong, and Yein, eight talented girls started their musical career in a family named Lovelyz. Debuted with "Candy Jelly Love" and followed by "Hi~" and "Ah-Choo", Lovelyz offer refreshing choice for listeners who prefer cutesy and sweet music. With more than 350k album copies sold, Lovelyz has set themselves as one of the household name in the kpop industry with strong vocal and captivating performance.</h1>
 			</div>
-			</a>
-			<a href="lvlz-about.html" onmouseover="playAud()" onmouseout="pauseAud()">
-			<div class="column2 inner">
-				<div class="Lovelyz-header">
-					<H1>LOVELYZ</H1>
-				</div>
-			    <img src="images/lvlz/gallery/5.png" alt="LOVELYZ">
-			    <!--<p>Lovelyz (러블리즈) is a South Korean girl group that consists of 8 members: Baby Soul, Jiae, Jisoo, Mijoo, Kei, Jin, Sujeong, and Yein. They debuted in November 12, 2014 under Woollim Entertainment.</p> -->
-			</div>
-			</a>
-			<a href="izone.html">
-			<div class="column3 inner">
-				<div class="Izone-header">
-					<H1>IZONE</H1>
-				</div>
-			    <img src="images/izone/IZONE3.jpg" alt="IZONE">	
-			    <!--<p>Iz*One (아이즈원) is a South Korean girl group that consists of 12 members: Wonyoung, Sakura, Yuri, Yena, Yujin, Nako, Eunbi, Hyewon, Hitomi, Chaewon, Minju, and Chaeyeon. They debuted in October 29, 2018 under Off The Record Entertainment.</p> -->
-			</div>
-			</a>
 		</div>
-		<audio id="myAudio">
-		  <source src="sound/lvlz.mp3" type="audio/mpeg">
-		</audio>
-	<script src="scripts/main.js"></script>
-  	</body>
+
+		<div id='footer'>
+		</div>
+
+		<script src='script.js'>
+		</script>
+
+	</body>
 </html> 

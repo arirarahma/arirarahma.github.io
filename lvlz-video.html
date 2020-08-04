@@ -2,212 +2,22 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="lvlz-styles.css">
+		<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 		<title>러블리즈8</title>
-		<style>
-		* {box-sizing: border-box}
-		.mySlides1 {
-			display: none;
-
-		}
-
-		body {
-			font-family: 'Reem Kufi', sans-serif;
-			background-color: #ebdfc0;
-		}
-
-		.header {
-			text-align:left;
-		    padding: auto;
-			color: #0064af;
-			font-size: 20px;
-		}
-
-		.title {
-			text-align: center;
-			position: relative;
-			display: inline;
-			padding-left: 835px;
-		}
-
-		.footer {
-			position: fixed;
-			left: 0;
-			bottom: 0;
-			width: 100%;
-			background-color: #3F3F3F;
-			color: white;
-			text-align: left;
-			padding-left: 20px; 
-    		z-index: 1;
-		}
-
-		.center {
-		  	display: block;
-		  	margin-left: auto;
-		  	margin-right: auto;
-		  	width: 50%;
-		  	vertical-align: middle;
-		  	max-width: 800px;
-		  	position: relative;
-		}
-
-		.woollim-logo {
-			padding: 10px;
-		}
-
-		.snsicon {
-			position: relative;
-			float: right;
-			padding: 10px;
-		}
-
-		img 
-		{
-		  vertical-align: middle;
-		  max-height: 750px;
-		  object-fit: contain;
-		}
-
-		/* Next & previous buttons */
-		.prev, .next {
-		  cursor: pointer;
-		  position: absolute;
-		  top: 30%;
-		  width: auto;
-		  padding: 20px;
-		  margin-top: -20px;
-		  
-		  font-weight: bold;
-		  font-size: 18px;
-		  transition: 0.6s ease;
-		  border-radius: 0 3px 3px 0;
-		  user-select: none;
-		  background-color: rgba(1, 1, 1, 0.1);
-		  color: white;
-		}
-
-		.prev:hover, .next:hover {
-		  background-color: rgba(241, 241, 241, 1);
-		  color: black;
-		}
-
-		/* Position the "next button" to the right */
-		.next {
-		  right: 0;
-		  border-radius: 3px 0 0 3px;
-		}
-
-		.text{
-		  font-size: 15px;
-		  width: 100%;
-		  text-align: center;
-		  position: absolute;
-		  bottom: 0;
-		  background: rgb(0, 0, 0); /* Fallback color */
-		  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
-		  color: #fff;
-		  padding: 20px;
-		  font-family: 'Reem Kufi', sans-serif;
-		}
-
-		.hidden-text {
-		  display: none;
-		  font-size: 15px;
-		  width: 100%;
-		  text-align: center;
-		  position: absolute;
-		  bottom: 0;
-		  background: rgb(0, 0, 0); /* Fallback color */
-		  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
-		  color: #fff;
-		  padding: 10px;
-		  font-family: 'Reem Kufi', sans-serif;
-		}
-
-		.text:hover + .hidden-text {
-		  display: block;
-		}
-
-		.text:hover {
-		  display: none;
-		}
-
-		button {
-		  font-size: 20px;
-		  width: 12%;
-		  font-family: 'Reem Kufi', sans-serif;
-		  background-color: Transparent;
-	      background-repeat:no-repeat;
-	      border: none;
-	      cursor:pointer;
-	      overflow: hidden;
-	      outline:none;
-		}
-
-		.sidenav {
-		  height: 100%;
-		  width: 0;
-		  position: fixed;
-		  z-index: 1;
-		  top: 0;
-		  left: 0;
-		  background-color: #0064af;
-		  overflow-x: hidden;
-		  transition: 0.5s;
-		  padding-top: 100px;
-		}
-
-		.sidenav a {
-		  padding: 8px 8px 8px 32px;
-		  text-decoration: none;
-		  font-size: 25px;
-		  color: #FFF;
-		  display: block;
-		  transition: 0.3s;
-		}
-
-		.sidenav a:hover {
-		  color: #f1f1f1;
-		}
-
-		.sidenav .closebtn {
-		  position: absolute;
-		  top: 0;
-		  right: 25px;
-		  font-size: 36px;
-		  margin-left: 50px;
-		}
-
-		#main {
-		  transition: margin-left .5s;
-		  padding: 5px;
-		}
-
-		@media screen and (max-height: 450px) {
-		  .sidenav {padding-top: 15px;}
-		  .sidenav a {font-size: 18px;}
-		}
-
-		</style>
 	</head>
 	<body>
 
-		<div id="mySidenav" class="sidenav">
-		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  <a href="lvlz-about.html">About</a>
-		  <a href="lvlz-members.html">Members</a>
-		  <a href="lvlz-discography.html">Discography</a>
-		  <a href="lvlz-video.html">Video</a>
-		  <a href="lvlz-gallery.html">Gallery</a>
+		<div id='sidenav'>
 		</div>
 
-		<div class="main">
+		<div id="main">
 			<div class="header">
-			  <span style="font-size:40px;cursor:pointer;" onclick="openNav()">&#9776; </span>
-			  <h1 class="title">Video</h1>
+				<span style="font-size:40px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+			  	<h1 class="title">Video</h1>
 			</div>
-			
+
 			<div class="center">
 			  <div class="mySlides">
 			    <iframe width=800 height=600 src="https://www.youtube.com/embed/isls26FGUaA"></iframe>
@@ -355,54 +165,13 @@
 			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 			</div>
-		</div>	
-		<div class="footer">
-  			<div class="woollim-logo">
-  				<img src="images/lvlz/woollim_logo.png" alt="Woollim">
-  				<div class="snsicon">
-  					<a href="http://lvlz8.com/" target="_blank"><img src="images/ico_art_home.png" alt="Homepage"></a>
-  					<a href="http://www.youtube.com/lvlz8" target="_blank"><img src="images/ico_yt.png" alt="YT"></a>
-  					<a href="https://twitter.com/Official_LVLZ" target="_blank"><img src="images/ico_tw.png" alt="TW"></a>
-  					<a href="https://www.instagram.com/official_lvlz8_" target="_blank"><img src="images/ico_insta.png" alt="IG"></a>
-  					<a href="https://www.facebook.com/lvlz8" target="_blank"><img src="images/ico_fb.png" alt="FB"></a>
-  					<a href="http://channels.vlive.tv/FB183" target="_blank"><img src="images/ico_vapp.png" alt="VLive"></a>
-  				</div>
-  			</div>
+
+		</div>
+		
+		<div id='footer'>
 		</div>
 
-		<script>
-
-		function openNav() {
-		  document.getElementById("mySidenav").style.width = "250px";
-		  document.getElementById("main").style.marginLeft = "250px";
-		}
-
-		function closeNav() {
-		  document.getElementById("mySidenav").style.width = "0";
-		  document.getElementById("main").style.marginLeft= "0";
-		}
-
-		var slideIndex = 1;
-		showSlides(slideIndex);
-
-		function plusSlides(n) {
-		  showSlides(slideIndex+= n);
-		}
-
-		function currentSlides(n) {
-		  showSlides(slideIndex = n);
-		}s
-
-		function showSlides(n) {
-		  var i;
-		  var x = document.getElementsByClassName("mySlides");
-		  if (n > x.length) {slideIndex = 1}    
-		  if (n < 1) {slideIndex = x.length}
-		  for (i = 0; i < x.length; i++) {
-		     x[i].style.display = "none";  
-		  }
-		  x[slideIndex-1].style.display = "block";  
-		}
+		<script src='script.js'>
 		</script>
 
 	</body>

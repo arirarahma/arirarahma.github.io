@@ -1,0 +1,199 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Tahoma";
+	font-size: 15px;
+	color: #666666;
+}
+
+p, ol, ul {
+	margin: 10px 10px 10px -8px;
+	line-height: 20px;
+
+}
+
+a {
+	text-decoration: none;	
+	color: #F78CA6;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #666666;
+}
+
+/* Header */
+
+.header {
+    text-align: center;
+    width: 1500px;
+    margin: auto;
+}
+
+#menu {
+	height: 40px;
+    margin: 0px 0px 6px;
+    background: #C4E9F0;
+}
+
+#menu ul {
+	margin: 0px -15px 6px -15px;
+    padding: 10px;
+    white-space: nowrap;
+	font-size: 16px;
+    font-weight: normal;
+}
+
+#menu li {
+	display: inline;
+    list-style-type: none;
+    float: left;
+    padding: 0px 0;
+}
+
+#menu a {
+	padding: 5px 30px;
+	color: #F78CA6;
+}
+
+#menu a:hover {
+	color: #C4E9F0;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Page */
+
+#page {
+	width: 1500px;
+	margin: 0 auto;
+
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 1500px;
+	margin-bottom: 50px;
+}
+
+/* Green Box */
+
+.greenbox {
+	background: #FFFFFF;
+}
+
+.greenbox .title {
+	height: 60px;
+	background: #FF9999;
+}
+
+.greenbox .title h1, .greenbox .title h2 {
+	height: 35px;
+	margin: 10px 0 0 0;
+	padding: 20px 5px 5px 0;
+	background: #7caab7;
+	text-transform: normal;
+	text-align: center;
+	text-spacing: 1px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Tahoma";
+	color: #FFFFFF;
+}
+
+.greenbox .entry {
+	padding: 10px 5px 10px 20px;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	background: #162447;
+	color: #FFFFFF;
+}
+
+.btm { background: #FFFFFF; }
+.btm .l { background: #FFFFFF; }
+.btm .r { background: #FFFFFF; }
+
+/* Two Columns */
+
+.two-columns {
+	background: #162447;
+}
+
+.two-columns .title h2 {
+	height: 30px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 15px;
+	font-weight: normal;
+	font-family: "Tahoma";
+	color: #FFFFFF;
+}
+
+.two-columns .pink {
+	/*background: #F78CA6;*/
+	background: #7caab7;
+}
+
+.two-columns .column1 {
+	width: 500px;
+	float: left;
+}
+
+.two-columns .column2 {
+	width: 500px;
+	float: left;
+}
+
+.two-columns .column3{
+	width: 500px;
+	float: left;
+}
+
+.two-columns .btm {
+	clear: both;
+	background: #FFFFFF;
+}
+
+.content{
+	color: #FFF;
+}
+/* Footer */
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #3F3F3F;
+	color: white;
+	text-align: left;
+	padding: 5px;
+	z-index: 1;
+}
+
+
+
+.woollim-logo {
+	position: relative;
+	float: left;
+	display: inline;
+	padding: 1px;
+
+}
+
+.snsicon {
+	position: relative;
+	float: right;
+	display: inline;
+	padding: 10px;
+}

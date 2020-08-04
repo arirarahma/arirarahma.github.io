@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <style>
+
+        .main {
+            text-align: center;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        #calendar {
+            width: 100%;
+        }
+
+        #calendar-body {
+            font-size: 20px;
+        }
+
+
+        
+
+    </style>    
+</head>
+<body>
+<div class="main">
+    <h1 id="monthAndYear"></h1>
+    <table id="calendar">
+        <thead>
+        <tr id="weekdays">
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+        </tr>
+        </thead>
+
+        <tbody id="calendar-body">
+        </tbody>
+    </table>
+
+    <div class="form-inline">
+        <button class="btn btn-outline-primary col-sm-6" id="previous" onclick="previous()">Previous</button>
+        <button class="btn btn-outline-primary col-sm-6" id="next" onclick="next()">Next</button>
+    </div>
+</div>
+<!--<button name="jump" onclick="jump()">Go</button>-->
+<script src="scripts.js"></script>
+
+<!-- Optional JavaScript for bootstrap -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+</body>
+</html>
